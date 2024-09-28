@@ -16,3 +16,4 @@ There are 5 screens named:
 5. Cookies
 ![Screenshot (56)](https://github.com/user-attachments/assets/53906ef1-03e6-4550-8e4e-d1a13ddfb800)
 ![Screenshot (57)](https://github.com/user-attachments/assets/1f1f2535-254a-4e53-b88a-c492a0fc462e)
+
