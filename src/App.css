@@ -1,7 +1,151 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-input::placeholder {
-    color: #929FA5;
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input{
+  accent-color:  #0B6E27;
+  ;
+}
+
+.IMG_LABEL img{
+  width: 18px;
+  height: 18px;
+  justify-content: center;
+}
+
+.IMG_LABEL3 img{
+  width: 18px;
+  height: 18px;
+  justify-content: center;
+}
+.IMG_LABEL {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.IMG_LABEL1 {
+  flex-direction: row;
+  display: flex ;
+  align-items: center;
+}
+
+.mr-2{
+
+margin-RIGHT : 62px;
+
+}
+
+.IMGS img{
+  width: 26px;
+  height: 26px;
+  align-items: center;
+}
+
+.IMGS1 img{
+  width: 24px;
+  height: 24px;
+  align-items: center;
+}
+
+.IMGS3 img{
+  width: 28px;
+  height: 28px;
+  align-items: center;
+}
+
+.mr-21{
+
+  margin-RIGHT : 362px;
   
+  }
+
+  .mr-211{
+
+    margin-RIGHT : 995px;
+    
+    }
+
+    .mr-212{
+
+      margin-RIGHT : 392px;
+      
+      }
+
+.OFFER_shadow{
+  width: Fill (428px)px;
+height: Fixed (54px)px;
+padding: 10px 16px 10px 16px;
+gap: 14px;
+border-radius: 10px 0px 0px 0px;
+opacity: 0px;
+align-items: center;
+justify-content: space-evenly;
+
+}
+
+.Shadow12{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content:space-between;
+  text-align: center;
+}
+
+.Arrow img{
+  margin-top: 3PX;
+  width: 20px;
+  height: 20px;  
+}
+
+.Span_text{
+  padding-top: 4px;
+  margin-right: 222px;
+  font-family: DM Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 16px;
+text-align: left;
+
+}
+
+.New_div{
+  display: flex;
+  padding: 6px;
+  justify-content: space-between;
+}

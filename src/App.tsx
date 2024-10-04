@@ -19,6 +19,9 @@ import Payments from "./payments";
 import Sidebarmain from "./Sidebarmain";
 import PricingPlans from "./PricingPlans";
 import Cookies from "./Cookies";
+import AddressMobile from "./AddressMobile";
+import PaymentsMobile from "./paymentsmobile";
+import Blog from "./Blog";
 
 const App: React.FC = () => {
     // State to manage the modal visibility
@@ -64,6 +67,18 @@ const App: React.FC = () => {
                     <Route
                         path="/Cookies"
                         element={<Cookies />}
+                    />
+                    <Route
+                        path="/AddressMobile"
+                        element={<AddressMobile />}
+                    />
+                    <Route
+                        path="/paymentsmobile"
+                        element={<PaymentsMobile/>}
+                    />
+                    <Route
+                        path="/Blog"
+                        element={<Blog/>}
                     />
 
                     {/* If any route mismatches the upper 

@@ -28,6 +28,15 @@ const Home: React.FC<HomeProps> = ({ openModal }) => {
                 <li>
                     <Link to="/Cookies">Cookies</Link>
                 </li>
+                <li>
+                    <Link to="/AddressMobile">AddressMobile</Link>
+                </li>
+                <li>
+                    <Link to="/paymentsmobile">PaymentsMobile</Link>
+                </li>
+                <li>
+                    <Link to="/Blog">Blog</Link>
+                </li>
             </ul>
             {/* Button to open Address Modal */}
             <button onClick={openModal} className="bg-blue-500 text-white p-3 rounded-md">

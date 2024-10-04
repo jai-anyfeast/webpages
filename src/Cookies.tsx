@@ -135,7 +135,7 @@ function Cookies() {
                     <img
                       src={expandedTerms[index] ? uparrow : downarrow}
                       alt={expandedTerms[index] ? 'Up arrow' : 'down arrow'}
-                      className="w-3 h-3"
+                      className="w-4 h-4"
                     />
                   </button>
                   {expandedTerms[index] && (
